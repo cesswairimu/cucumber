@@ -1,5 +1,5 @@
 Given(/^the input "([^"]*)"$/) do |input|
-  @input = nput
+  @input = input
 end
 
 When(/^the calculator is run$/) do
