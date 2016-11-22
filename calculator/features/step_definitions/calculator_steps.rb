@@ -8,6 +8,6 @@ When(/^the calculator is run$/) do
   raise('Command failed!!') unless $?.success?
 end
 
-Then(/^the output should be "([^"]*)"$/) do |arg1|
-  pending # Write code here that turns the phrase above into concrete actions
+Then /^the output should be "([^"]*)"$/ do |expected_output|
+  @output.should == expected_output
 end
