@@ -1,2 +1,1 @@
-
-@input = 
+print "4"
