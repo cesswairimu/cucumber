@@ -6,8 +6,8 @@ puts "Your numbers are #{input1} and #{input2}"
 
 puts"_____ Now we will add your numbers______"
 
-sum = input1.to_i + input2.to_i
+output = input1.to_i + input2.to_i
 
-puts "The sum of the two numbers is #{sum}"
+puts "The sum of the two numbers is #{output}"
 
 
