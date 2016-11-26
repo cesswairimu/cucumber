@@ -12,3 +12,9 @@ Feature: Feedback when entering invalid credit card details
         And I submit the form
         Then the form should be redisplayed
         And I should see a message advising me of the correct number of digits
+    Scenario: Expiry date invalid
+        When I enter a card expiry date that's in the past
+        And all the other details are correct
+        And I submit the form
+        Then the form should be redisplayed
+        And I should see a message telling me the expiry date must be wrong
