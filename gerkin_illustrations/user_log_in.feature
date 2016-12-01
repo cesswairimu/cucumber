@@ -1,8 +1,10 @@
+#This is the feature of the file
 Feature: User logs in
 This explains what is expected to happen when a user logs in to a system
 after putting the right creditials  then he should be logged in and redirected
 to his profile otherwise it should display the login form with an error message.
 
+#This is our first scenario of the user login feature
     Scenario: Attempt login with valid creditials
         Given I enter valid creditials
         When I click the login button
