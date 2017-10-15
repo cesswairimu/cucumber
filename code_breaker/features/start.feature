@@ -6,7 +6,7 @@ Feature: code-breaker starts game
     Scenario: start game
         Given I am not playing yet
         When I start a new game
-        Then i should see "Welcome toCodebreaker!!!"
+        Then i should see "Welcome to Codebreaker!!!"
         And i should see "Enter guess: "
         
 
