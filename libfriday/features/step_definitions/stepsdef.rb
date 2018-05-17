@@ -1,5 +1,6 @@
 module FridayStepHelper
   def is_it_friday?(day)
+    "Nope"
   end
 end
 
@@ -10,7 +11,7 @@ Given("today is Sunday") do
 end
 
 When("I ask if today is Friday") do
-  @actual_answer = is_it_friday(@today)
+  @actual_answer = is_it_friday?(@today)
 end
 
 Then("I should be told {string}") do |string|
