@@ -6,3 +6,7 @@ Feature: Is it Friday yet?
         When I ask if today is Friday
         Then  I should be told "Nope"
 
+    Scenario: Its Friday
+        Given today is Friday
+        When I ask if today is Friday
+        Then  I should be told "Yeah baiby"
